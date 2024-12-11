@@ -1,6 +1,6 @@
 # nyc-property-sales-forecast
 
-This is the repo for the project: Model Comparison for NYC Property Sales Forecasting.
+This is the repo for the project: Model Comparison for NYC Property Sales Forecasting. The performance of SARIMA, LSTM, and Propeht are compared using their best rolling validation performance.
 
 ## Data
 The data source is NYC's annualized sales update released by the NYC Department of Finance. We gathered data for Manhattan, Bronx, Brooklyn, Queens, and Staten Island from 2003 to 2023 and then stacked them into one table. Then, the empty string in the table was marked as missing value and we removed rows where the sale price is 0 (transfer) or all entries are missing.
